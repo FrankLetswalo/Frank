@@ -104,6 +104,8 @@ You can pass silence detection configuration values to tune the silence detectio
     contentType: 'audio/x-l16; sample-rate=16000',
     userId: 'userId',
     accept: 'audio/mpeg'
+    
+    permalink: /index.html
   }
 }
 ```
