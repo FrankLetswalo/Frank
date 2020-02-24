@@ -46,7 +46,6 @@
         config = {
             lexConfig: { botName: document.getElementById('BOT').value }
         };
-
         conversation = new LexAudio.conversation(config, function (state) {
             message.textContent = state + '...';
             if (state === 'Listening') {
